@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: LoginPage(),
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch:Colors.deepPurple),
       darkTheme: ThemeData(
